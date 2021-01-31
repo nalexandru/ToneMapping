@@ -11,6 +11,7 @@ struct ThreadArgs
 	uint8_t *ldr;
 	uint32_t count;
 	float exposure, invGamma;
+	HANDLE evt;
 };
 
 static uint32_t _cpuCount = 0;
@@ -55,6 +56,8 @@ _acesToneMapProc(void *a)
 		ldr += 3;
 	}
 
+	SetEvent(args.evt);
+
 	return 0;
 }
 
@@ -93,6 +96,8 @@ _uc2ToneMapProc(void *a)
 		ldr += 3;
 	}
 
+	SetEvent(args.evt);
+
 	return 0;
 }
 
@@ -124,6 +129,8 @@ _hejlRichardToneMapProc(void *a)
 		ldr += 3;
 	}
 
+	SetEvent(args.evt);
+
 	return 0;
 }
 
@@ -152,6 +159,8 @@ _reinhardToneMapProc(void *a)
 		ldr += 3;
 	}
 
+	SetEvent(args.evt);
+
 	return 0;
 }
 
@@ -165,6 +174,9 @@ initToneMap(void)
 
 	_args = (struct ThreadArgs *)HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, _cpuCount * sizeof(*_args));
 	_threads = (HANDLE *)HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, _cpuCount * sizeof(*_threads));
+
+	for (uint32_t i = 0; i < _cpuCount; ++i)
+		_args[i].evt = CreateEvent(NULL, FALSE, FALSE, NULL);
 }
 
 void
@@ -183,6 +195,8 @@ toneMap(enum ToneMapMode tm, float *exr, uint8_t *ldr, uint32_t width, uint32_t 
 	case TM_ACES:
 	default: _acesToneMapProc(&_args[0]); break;
 	}
+
+	ResetEvent(_args[0].evt);
 }
 
 void
@@ -212,10 +226,10 @@ toneMapMT(enum ToneMapMode tm, float *hdr, uint8_t *ldr, uint32_t width, uint32_
 		CreateThread(NULL, 0, proc, &_args[i], 0, NULL);
 	}
 
-	WaitForMultipleObjects(_cpuCount, _threads, TRUE, INFINITE);
-	
-	for (uint32_t i = 0; i < _cpuCount; ++i)
+	for (uint32_t i = 0; i < _cpuCount; ++i) {
+		WaitForSingleObject(_args[i].evt, INFINITE);
 		CloseHandle(_threads[i]);
+	}
 }
 
 void
