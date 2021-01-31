@@ -1,0 +1,4 @@
+LIBRARY
+EXPORTS
+	getSDKVersion			@1
+	getPluginDefinition		@2
