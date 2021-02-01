@@ -2,6 +2,10 @@
 Daz Studio Tone Mapping Plugin
 Adds some filmic tone mapping operators to Daz Studio.
 
+ACES Tone Mapping          |  DAZ Studio Render
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/wiki/nalexandru/ToneMapping/images/PluginDemo_aces.png)  |  ![](https://raw.githubusercontent.com/wiki/nalexandru/ToneMapping/images/PluginDemo.png)
+
 The plugin has been tested with Daz Studio 4.15.0.2 64bit on Windows 7. macOS is not supported.
 
 ## Building
@@ -23,4 +27,12 @@ The plugin has been tested with Daz Studio 4.15.0.2 64bit on Windows 7. macOS is
 * stb_image_write https://github.com/nothings/stb
 
 ## Credits 
-Based on http://filmicworlds.com/blog/filmic-tonemapping-operators/ and https://github.com/KhronosGroup/glTF-Sample-Viewer
+# Based on
+* http://filmicworlds.com/blog/filmic-tonemapping-operators/
+* https://github.com/KhronosGroup/glTF-Sample-Viewer
+# Assets used in demo image
+* Character: https://www.daz3d.com/sewa-for-genesis-3-genesis-8-female
+* Skin: https://www.daz3d.com/victoria-8-1
+* Hair: https://www.daz3d.com/xu-character-and-hair-for-genesis-8-female
+* Outfit: https://www.daz3d.com/dforce-phenom-lingerie-for-genesis-8-females
+* HDRI: https://hdrihaven.com/hdri/?c=outdoor&h=spiaggia_di_mondello
