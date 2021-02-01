@@ -27,10 +27,10 @@ The plugin has been tested with Daz Studio 4.15.0.2 64bit on Windows 7. macOS is
 * stb_image_write https://github.com/nothings/stb
 
 ## Credits 
-# Based on
+### Based on
 * http://filmicworlds.com/blog/filmic-tonemapping-operators/
 * https://github.com/KhronosGroup/glTF-Sample-Viewer
-# Assets used in demo image
+### Assets used in demo image
 * Character: https://www.daz3d.com/sewa-for-genesis-3-genesis-8-female
 * Skin: https://www.daz3d.com/victoria-8-1
 * Hair: https://www.daz3d.com/xu-character-and-hair-for-genesis-8-female
