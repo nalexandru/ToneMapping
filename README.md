@@ -1,5 +1,4 @@
-# ToneMapping
-Daz Studio Tone Mapping Plugin
+# Daz Studio Tone Mapping Plugin
 Adds some filmic tone mapping operators to Daz Studio.
 
 ACES Tone Mapping          |  DAZ Studio Render
