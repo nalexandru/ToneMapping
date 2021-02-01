@@ -21,6 +21,8 @@ The plugin has been tested with Daz Studio 4.15.0.2 64bit on Windows 7. macOS is
 * Select the tone mapping operator and adjust the exposure as desired
 * Save the image
 
+More detailed information can be found on the wiki: [Usage](https://github.com/nalexandru/ToneMapping/wiki/Usage)
+
 ## 3rd Party Libraries
 * tinyexr https://github.com/syoyo/tinyexr
 * stb_image_write https://github.com/nothings/stb
