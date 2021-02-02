@@ -3,7 +3,7 @@ Adds some filmic tone mapping operators to Daz Studio.
 
 ACES Tone Mapping          |  DAZ Studio Render
 :-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/wiki/nalexandru/ToneMapping/images/PluginDemo_aces.png)  |  ![](https://raw.githubusercontent.com/wiki/nalexandru/ToneMapping/images/PluginDemo.png)
+![](https://raw.githubusercontent.com/wiki/nalexandru/ToneMapping/images/PluginDemo_Natural_ACES.png)  |  ![](https://raw.githubusercontent.com/wiki/nalexandru/ToneMapping/images/PluginDemo_Natural.png)
 
 The plugin has been tested with Daz Studio 4.15.0.2 64bit on Windows 7. macOS is not supported.
 
