@@ -33,7 +33,8 @@ More detailed information can be found on the wiki: [Usage](https://github.com/n
 * https://github.com/KhronosGroup/glTF-Sample-Viewer
 ### Assets used in demo image
 * Character: https://www.daz3d.com/sewa-for-genesis-3-genesis-8-female
-* Skin: https://www.daz3d.com/victoria-8-1
+* Skin: https://www.daz3d.com/victoria-8-1 & https://www.daz3d.com/olivia-hd-for-genesis-8-female
 * Hair: https://www.daz3d.com/xu-character-and-hair-for-genesis-8-female
 * Outfit: https://www.daz3d.com/dforce-phenom-lingerie-for-genesis-8-females
 * HDRI: https://hdrihaven.com/hdri/?c=outdoor&h=spiaggia_di_mondello
+* Pose: https://www.daz3d.com/naturally-poses-for-genesis-81-female
