@@ -5,13 +5,19 @@ ACES Tone Mapping          |  DAZ Studio Render
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/wiki/nalexandru/ToneMapping/images/PluginDemo_Natural_ACES.png)  |  ![](https://raw.githubusercontent.com/wiki/nalexandru/ToneMapping/images/PluginDemo_Natural.png)
 
-The plugin has been tested with Daz Studio 4.15.0.2 64bit on Windows 7. macOS is not supported.
+The plugin has been tested with Daz Studio 4.15.0.2 64bit on Windows 7 and Mac OS X 10.6.
 
 ## Building
+### Windows
 * Open ToneMapping.sln and build it with Visual Studio 2010. Newer versions of Visual Studio will cause the plugin to crash due to STL differences.
+### Mac
+* Open ToneMapping.xcodeproj and build it. The project has been created with Xcode 3.2.6 on Mac OS X 10.6. For newer Xcode versions you will need install the 10.6 sdk.
 
 ## Installation
+### Windows
 * Copy ToneMapping.dll into C:\Program Files\DAZ 3D\DAZStudio4\plugins
+### Mac
+* Copy libToneMapping.dylib into /Applications/DAZ 3D/DAZStudio4 64-bit/plugins
 
 ## Usage
 * Enable the Beauty canvas before rendering
