@@ -11,7 +11,8 @@ The plugin has been tested with Daz Studio 4.15.0.2 64bit on Windows 7 and Mac O
 ### Windows
 * Open ToneMapping.sln and build it with Visual Studio 2010. Newer versions of Visual Studio will cause the plugin to crash due to STL differences.
 ### Mac
-* Open ToneMapping.xcodeproj and build it. The project has been created with Xcode 3.2.6 on Mac OS X 10.6. For newer Xcode versions you will need install the 10.6 sdk.
+* Open ToneMapping.xcodeproj and build it. The project has been created with Xcode 3.2.6; for newer Xcode versions you will need install the 10.6 sdk.
+* If you modify the classes that inherit from Qt classes, you will need to run moc manually.
 
 ## Installation
 ### Windows
