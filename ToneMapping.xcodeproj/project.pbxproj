@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA24C17F25CC0B40004E5900 /* Plugin.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FA24C17425CC0B40004E5900 /* Plugin.cxx */; };
+		FA24C18025CC0B40004E5900 /* stb_image_write.h in Headers */ = {isa = PBXBuildFile; fileRef = FA24C17525CC0B40004E5900 /* stb_image_write.h */; };
+		FA24C18125CC0B40004E5900 /* tinyexr.h in Headers */ = {isa = PBXBuildFile; fileRef = FA24C17625CC0B40004E5900 /* tinyexr.h */; };
+		FA24C18225CC0B40004E5900 /* ToneMapping.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FA24C17725CC0B40004E5900 /* ToneMapping.cxx */; };
+		FA24C18325CC0B40004E5900 /* ToneMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = FA24C17825CC0B40004E5900 /* ToneMapping.h */; };
+		FA24C18425CC0B40004E5900 /* ToneMappingAction_moc.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FA24C17925CC0B40004E5900 /* ToneMappingAction_moc.cxx */; };
+		FA24C18525CC0B40004E5900 /* ToneMappingAction.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FA24C17A25CC0B40004E5900 /* ToneMappingAction.cxx */; };
+		FA24C18625CC0B40004E5900 /* ToneMappingAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FA24C17B25CC0B40004E5900 /* ToneMappingAction.h */; };
+		FA24C18725CC0B40004E5900 /* ToneMappingDialog_moc.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FA24C17C25CC0B40004E5900 /* ToneMappingDialog_moc.cxx */; };
+		FA24C18825CC0B40004E5900 /* ToneMappingDialog.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FA24C17D25CC0B40004E5900 /* ToneMappingDialog.cxx */; };
+		FA24C18925CC0B40004E5900 /* ToneMappingDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = FA24C17E25CC0B40004E5900 /* ToneMappingDialog.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2AAC0630554660B00DB518D /* libToneMapping.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libToneMapping.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA24C15325CC05AC004E5900 /* libdzcore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdzcore.dylib; path = "../../../../Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64/libdzcore.dylib"; sourceTree = SOURCE_ROOT; };
+		FA24C15725CC05C6004E5900 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = "/Users/Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64/QtCore.framework"; sourceTree = "<absolute>"; };
+		FA24C15C25CC06BE004E5900 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = "/Users/Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64/QtGui.framework"; sourceTree = "<absolute>"; };
+		FA24C15F25CC06CE004E5900 /* QtScript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtScript.framework; path = "/Users/Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64/QtScript.framework"; sourceTree = "<absolute>"; };
+		FA24C17425CC0B40004E5900 /* Plugin.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plugin.cxx; path = ToneMapping/Plugin.cxx; sourceTree = "<group>"; };
+		FA24C17525CC0B40004E5900 /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image_write.h; path = ToneMapping/stb_image_write.h; sourceTree = "<group>"; };
+		FA24C17625CC0B40004E5900 /* tinyexr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyexr.h; path = ToneMapping/tinyexr.h; sourceTree = "<group>"; };
+		FA24C17725CC0B40004E5900 /* ToneMapping.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToneMapping.cxx; path = ToneMapping/ToneMapping.cxx; sourceTree = "<group>"; };
+		FA24C17825CC0B40004E5900 /* ToneMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToneMapping.h; path = ToneMapping/ToneMapping.h; sourceTree = "<group>"; };
+		FA24C17925CC0B40004E5900 /* ToneMappingAction_moc.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToneMappingAction_moc.cxx; path = ToneMapping/ToneMappingAction_moc.cxx; sourceTree = "<group>"; };
+		FA24C17A25CC0B40004E5900 /* ToneMappingAction.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToneMappingAction.cxx; path = ToneMapping/ToneMappingAction.cxx; sourceTree = "<group>"; };
+		FA24C17B25CC0B40004E5900 /* ToneMappingAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToneMappingAction.h; path = ToneMapping/ToneMappingAction.h; sourceTree = "<group>"; };
+		FA24C17C25CC0B40004E5900 /* ToneMappingDialog_moc.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToneMappingDialog_moc.cxx; path = ToneMapping/ToneMappingDialog_moc.cxx; sourceTree = "<group>"; };
+		FA24C17D25CC0B40004E5900 /* ToneMappingDialog.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToneMappingDialog.cxx; path = ToneMapping/ToneMappingDialog.cxx; sourceTree = "<group>"; };
+		FA24C17E25CC0B40004E5900 /* ToneMappingDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToneMappingDialog.h; path = ToneMapping/ToneMappingDialog.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* ToneMapping */ = {
+			isa = PBXGroup;
+			children = (
+				FA24C15325CC05AC004E5900 /* libdzcore.dylib */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				FA24C15725CC05C6004E5900 /* QtCore.framework */,
+				FA24C15C25CC06BE004E5900 /* QtGui.framework */,
+				FA24C15F25CC06CE004E5900 /* QtScript.framework */,
+			);
+			name = ToneMapping;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA24C17425CC0B40004E5900 /* Plugin.cxx */,
+				FA24C17525CC0B40004E5900 /* stb_image_write.h */,
+				FA24C17625CC0B40004E5900 /* tinyexr.h */,
+				FA24C17725CC0B40004E5900 /* ToneMapping.cxx */,
+				FA24C17825CC0B40004E5900 /* ToneMapping.h */,
+				FA24C17925CC0B40004E5900 /* ToneMappingAction_moc.cxx */,
+				FA24C17A25CC0B40004E5900 /* ToneMappingAction.cxx */,
+				FA24C17B25CC0B40004E5900 /* ToneMappingAction.h */,
+				FA24C17C25CC0B40004E5900 /* ToneMappingDialog_moc.cxx */,
+				FA24C17D25CC0B40004E5900 /* ToneMappingDialog.cxx */,
+				FA24C17E25CC0B40004E5900 /* ToneMappingDialog.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0630554660B00DB518D /* libToneMapping.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0600554660B00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA24C18025CC0B40004E5900 /* stb_image_write.h in Headers */,
+				FA24C18125CC0B40004E5900 /* tinyexr.h in Headers */,
+				FA24C18325CC0B40004E5900 /* ToneMapping.h in Headers */,
+				FA24C18625CC0B40004E5900 /* ToneMappingAction.h in Headers */,
+				FA24C18925CC0B40004E5900 /* ToneMappingDialog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0620554660B00DB518D /* ToneMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "ToneMapping" */;
+			buildPhases = (
+				D2AAC0600554660B00DB518D /* Headers */,
+				D2AAC0610554660B00DB518D /* Sources */,
+				D289988505E68E00004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToneMapping;
+			productName = ToneMapping;
+			productReference = D2AAC0630554660B00DB518D /* libToneMapping.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "ToneMapping" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ToneMapping */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0620554660B00DB518D /* ToneMapping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0610554660B00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA24C17F25CC0B40004E5900 /* Plugin.cxx in Sources */,
+				FA24C18225CC0B40004E5900 /* ToneMapping.cxx in Sources */,
+				FA24C18425CC0B40004E5900 /* ToneMappingAction_moc.cxx in Sources */,
+				FA24C18525CC0B40004E5900 /* ToneMappingAction.cxx in Sources */,
+				FA24C18725CC0B40004E5900 /* ToneMappingDialog_moc.cxx in Sources */,
+				FA24C18825CC0B40004E5900 /* ToneMappingDialog.cxx in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB914B08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					QtCore,
+					"-framework",
+					QtGui,
+					"-framework",
+					QtScript,
+					"-ldzcore",
+				);
+				PRODUCT_NAME = ToneMapping;
+			};
+			name = Debug;
+		};
+		1DEB914C08733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					QtCore,
+					"-framework",
+					QtGui,
+					"-framework",
+					QtScript,
+					"-ldzcore",
+				);
+				PRODUCT_NAME = ToneMapping;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		1DEB914F08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_MODEL_PPC64 = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/include\"",
+				);
+				INSTALL_PATH = "/Applications/DAZ 3D/DAZStudio4 64-bit/plugins";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		1DEB915008733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"/Users/Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_MODEL_PPC64 = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/include\"",
+				);
+				INSTALL_PATH = "/Applications/DAZ 3D/DAZStudio4 64-bit/plugins";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/Shared/My DAZ 3D Library/DAZStudio4.5+ SDK/lib/Mac64\"",
+				);
+				OTHER_CFLAGS = "-fomit-frame-pointer";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "ToneMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914B08733D8E0010E9CD /* Debug */,
+				1DEB914C08733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "ToneMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914F08733D8E0010E9CD /* Debug */,
+				1DEB915008733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
