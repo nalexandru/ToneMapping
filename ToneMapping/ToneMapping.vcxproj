@@ -64,23 +64,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>V:\Library\DAZStudio4.5+ SDK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
-    <LibraryPath>V:\Library\DAZStudio4.5+ SDK\lib\Win32;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <IncludePath>C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\lib\Win32;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>V:\Library\DAZStudio4.5+ SDK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
-    <LibraryPath>V:\Library\DAZStudio4.5+ SDK\lib\x64;$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSdkDir)lib\x64;</LibraryPath>
+    <IncludePath>C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\lib\x64;$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSdkDir)lib\x64;</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>V:\Library\DAZStudio4.5+ SDK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
-    <LibraryPath>V:\Library\DAZStudio4.5+ SDK\lib\Win32;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <IncludePath>C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include</IncludePath>
+    <LibraryPath>C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\lib\Win32;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>V:\Library\DAZStudio4.5+ SDK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
-    <LibraryPath>V:\Library\DAZStudio4.5+ SDK\lib\x64;$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSdkDir)lib\x64;</LibraryPath>
+    <IncludePath>C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\lib\x64;$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSdkDir)lib\x64;</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -97,7 +97,7 @@
       <ModuleDefinitionFile>ToneMapping.def</ModuleDefinitionFile>
     </Link>
     <CustomBuild>
-      <Command>"V:\Library\DAZStudio4.5+ SDK\bin\x64\moc.exe" "%(FullPath)" -o "%(Filename)_moc.cxx"</Command>
+      <Command>"C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\bin\x64\moc.exe" "%(FullPath)" -o "%(Filename)_moc.cxx"</Command>
     </CustomBuild>
     <CustomBuild>
       <Message>Mocing "%(Filename)"...</Message>
@@ -121,7 +121,7 @@
       <ModuleDefinitionFile>ToneMapping.def</ModuleDefinitionFile>
     </Link>
     <CustomBuild>
-      <Command>"V:\Library\DAZStudio4.5+ SDK\bin\x64\moc.exe" "%(FullPath)" -o "%(Filename)_moc.cxx"</Command>
+      <Command>"C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\bin\x64\moc.exe" "%(FullPath)" -o "%(Filename)_moc.cxx"</Command>
     </CustomBuild>
     <CustomBuild>
       <Message>Mocing "%(Filename)"...</Message>
@@ -154,7 +154,7 @@
       <ModuleDefinitionFile>ToneMapping.def</ModuleDefinitionFile>
     </Link>
     <CustomBuild>
-      <Command>"V:\Library\DAZStudio4.5+ SDK\bin\x64\moc.exe" "%(FullPath)" -o "%(Filename)_moc.cxx"</Command>
+      <Command>"C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\bin\x64\moc.exe" "%(FullPath)" -o "%(Filename)_moc.cxx"</Command>
     </CustomBuild>
     <CustomBuild>
       <Message>Mocing "%(Filename)"...</Message>
@@ -187,7 +187,7 @@
       <ModuleDefinitionFile>ToneMapping.def</ModuleDefinitionFile>
     </Link>
     <CustomBuild>
-      <Command>"V:\Library\DAZStudio4.5+ SDK\bin\x64\moc.exe" "%(FullPath)" -o "%(Filename)_moc.cxx"</Command>
+      <Command>"C:\Users\Public\Documents\My DAZ 3D Library\DAZStudio4.5+ SDK\bin\x64\moc.exe" "%(FullPath)" -o "%(Filename)_moc.cxx"</Command>
     </CustomBuild>
     <CustomBuild>
       <Message>Mocing "%(Filename)"...</Message>

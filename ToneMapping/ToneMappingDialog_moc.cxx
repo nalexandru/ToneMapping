@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'ToneMappingDialog.h'
 **
-** Created: Mon Feb 1 00:43:26 2021
+** Created: Sun Dec 5 05:40:05 2021
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!
